@@ -1,7 +1,7 @@
 import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit';
 import toast from './middleware/toast';
 import api from './middleware/api'
-import reducer from './reducers/index';
+import reducer from './reducers/rootReducer';
 
 /* 
     store = {
